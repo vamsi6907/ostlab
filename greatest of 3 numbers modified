@@ -1,0 +1,14 @@
+include <stdio.h>
+int main()
+{
+double n1, n2, n3;
+printf("Enter the values of number1, number2 and number3\n");
+scanf("%d %d %d", &num1, &num2, &num3);
+printf("number1 = %d\tnumber2 = %d\tnumber3 = %d\n", number1, number2, number3); 
+if( n1>=n2 && n1>=n3 )
+printf("%2f is the largest number.", n1);
+if( n2>=n1 && n2>=n3 )
+printf("%2f is the largest number.", n2);
+if( n3>=n1 && n3>=n2 )
+printf("%2f is the largest number.", n3);
+}
